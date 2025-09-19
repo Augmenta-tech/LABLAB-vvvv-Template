@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HDE>
+  <SETTINGS>
+    <SETTING name="ArePackagesBrowsable">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="AutoBackup">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="AutoBackupMinutes">
+      <VALUE>5</VALUE>
+    </SETTING>
+    <SETTING name="AutoReloadDocuments">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="CheckVersionOnStartup">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="DocumentAskOnFirstSave">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="DraggingOnConnectorStartsLink">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="DraggingOnValueEditorEditsValue">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="DraggingOnValueEditorHorizontal">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="DroppingALinkEndsIt">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="FloatPrecision">
+      <VALUE>3</VALUE>
+    </SETTING>
+    <SETTING name="FontSize">
+      <VALUE>16</VALUE>
+    </SETTING>
+    <SETTING name="HighPrecisionTimer">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="InspectorPinsCollapsed">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="LearnIsDefaultTab">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="LinkAutoSegmentation">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="LinkSnappingAreaSize">
+      <VALUE>25</VALUE>
+    </SETTING>
+    <SETTING name="LinkSnappingAreaSizeSmall">
+      <VALUE>16</VALUE>
+    </SETTING>
+    <SETTING name="LogBufferLength">
+      <VALUE>5000</VALUE>
+    </SETTING>
+    <SETTING name="LogSeverityThreshold">
+      <VALUE>Information</VALUE>
+    </SETTING>
+    <SETTING name="LogViewState">
+      <VALUE>&lt;LogViewStateSerial StructuredView="True"&gt;
+  &lt;Levels&gt;
+    &lt;Item&gt;Critical&lt;/Item&gt;
+    &lt;Item&gt;Error&lt;/Item&gt;
+  &lt;/Levels&gt;
+&lt;/LogViewStateSerial&gt;</VALUE>
+    </SETTING>
+    <SETTING name="MouseDragStartArea">
+      <VALUE>4</VALUE>
+    </SETTING>
+    <SETTING name="MouseWheelZooms">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="NewDocumentIfNoneLoaded">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="NodeBrowserEnableAdvanced">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="NodeBrowserEnableExperimental">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="NodeBrowserEnableExternal">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="NodeBrowserEnableIntelligentFiltering">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="NodeBrowserEnablePinChoices">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="NodeShowAssignmentIcon">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="NodeShowWarningIfExperimental">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="OpenPreviousDocuments">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="OpenPreviousWindows">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="PressSpaceToPan">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="RecorderAutoOpen">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="RecorderFPS">
+      <VALUE>25</VALUE>
+    </SETTING>
+    <SETTING name="RecorderQuality">
+      <VALUE>10</VALUE>
+    </SETTING>
+    <SETTING name="RuntimeAutoJumpToError">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="RuntimePauseOnError">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="ShowOrigin">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="ShowSnappingGuide">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="ShowToolTipOnLinks">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="Snapping">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="Stylesheet">
+      <VALUE>dark.css</VALUE>
+    </SETTING>
+    <SETTING name="SymbolBrowserSize">
+      <VALUE>594 x 480</VALUE>
+    </SETTING>
+    <SETTING name="ThoroughHotswap">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="TooltipClassic">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="TooltipNumberOfItemsOfCollection">
+      <VALUE>3</VALUE>
+    </SETTING>
+    <SETTING name="TooltipScaling">
+      <VALUE>184</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowAdvancedTimings">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowDocumentation">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowLocalID">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowObjects">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowOperation">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowSymbolSource">
+      <VALUE>False</VALUE>
+    </SETTING>
+    <SETTING name="TooltipShowTimings">
+      <VALUE>True</VALUE>
+    </SETTING>
+    <SETTING name="TooltipStdDelayInMilliSeconds">
+      <VALUE>250</VALUE>
+    </SETTING>
+  </SETTINGS>
+</HDE>

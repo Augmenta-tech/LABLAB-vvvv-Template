@@ -1,0 +1,70 @@
+{
+  "SchemaVersion": "1-1-1",
+  "Name": "AugmentaTester",
+  "EntryPoint": "AugmentaReceiver.vl",
+  "VVVVVersion": "vvvv_gamma_7.1-0010-g7bfcbe76db-win-x64",
+  "NugetFolderOverrideToggle": true,
+  "NugetOverrideFolder": "..\\..\\shared_dependencies\\nugets",
+  "PackageRepositoryFoldersOverrideToggle": true,
+  "PackageRepositoryOverrideFolders": [
+    "..\\..\\shared_dependencies\\submodules",
+    "..\\..\\shared_dependencies\\submodules\\ImaginarySystem"
+  ],
+  "Settings": [
+    {
+      "Name": "Machine ID",
+      "Type": "String",
+      "Flag": "Machine ID",
+      "Value": "1",
+      "Required": false,
+      "Encrypted": false
+    },
+    {
+      "Name": "Redis Remote Host",
+      "Type": "String",
+      "Flag": "--redis-remote-host",
+      "Value": "127.0.0.1",
+      "Required": false,
+      "Encrypted": false
+    },
+    {
+      "Name": "Redis Remote Port",
+      "Type": "String",
+      "Flag": "--redis-remote-port",
+      "Value": "6379",
+      "Required": false,
+      "Encrypted": false
+    },
+    {
+      "Name": "Redis Remote Use SSL",
+      "Type": "Bool",
+      "Flag": "--redis-remote-use-ssl",
+      "Value": false,
+      "Required": false,
+      "OmitOnFalse": false
+    },
+    {
+      "Name": "Redis Remote Username",
+      "Type": "String",
+      "Flag": "--redis-remote-username",
+      "Value": "default",
+      "Required": false,
+      "Encrypted": false
+    },
+    {
+      "Name": "Redis Remote Password",
+      "Type": "String",
+      "Flag": "--redis-remote-password",
+      "Value": "",
+      "Required": false,
+      "Encrypted": true
+    },
+    {
+      "Name": "Settings",
+      "Type": "String",
+      "Flag": "--settings",
+      "Required": true,
+      "Value":"%~dp0settings.xml"
+    }
+  ]
+}

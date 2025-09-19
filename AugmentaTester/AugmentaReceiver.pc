@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublicChannels>
+  <Channel Name="Monitoring.Current Framerate" Type="Float32 [Primitive]" />
+  <Channel Name="Scene Control.Active Scene A" Type="IScene [ImaginaryToolkit.SceneManagement.SceneSwitcher]" />
+</PublicChannels>
