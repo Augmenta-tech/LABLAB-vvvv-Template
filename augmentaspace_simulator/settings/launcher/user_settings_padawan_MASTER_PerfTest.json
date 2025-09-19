@@ -1,0 +1,61 @@
+{
+  "SchemaVersion": "1-1-0",
+  "Name": "AUGMENTA SPACE SIMULATOR",
+  "ProfileName": "PerfTest",
+  "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\tools\\augmentaspace_simulator",
+  "EntryPoint": "AugmentaSpace_PerfTest.vl",
+  "VVVVVersion": "vvvv_gamma_6.0-0263-gfc1001a87e",
+  "VVVVVersionFolderOverrideToggle": false,
+  "VVVVVersionOverrideFolder": "",
+  "NugetFolderOverrideToggle": true,
+  "NugetOverrideFolder": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\nugets",
+  "PackageRepositoryFoldersOverrideToggle": true,
+  "PackageRepositoryOverrideFolders": [
+    "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules",
+    "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\ImaginarySystem"
+  ],
+  "Settings": [],
+  "EditablePackages": [
+    {
+      "Name": "VL.CamControls",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.CamControls"
+    },
+    {
+      "Name": "VL.DATALAND.SharedTypes",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.DATALAND.SharedTypes"
+    },
+    {
+      "Name": "VL.Fuse",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.Fuse"
+    },
+    {
+      "Name": "VL.ScalableDisplay",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.ScalableDisplay"
+    },
+    {
+      "Name": "VL.Scentrealm",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.Scentrealm"
+    },
+    {
+      "Name": "VL.SpatialDataStructures",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\VL.SpatialDataStructures"
+    },
+    {
+      "Name": "VL.AssetsManager",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\ImaginarySystem\\VL.AssetsManager"
+    },
+    {
+      "Name": "VL.ImaginaryToolkit",
+      "IsEditable": false,
+      "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\ImaginarySystem\\VL.ImaginaryToolkit"
+    }
+  ],
+  "CommandLineApplications": []
+}

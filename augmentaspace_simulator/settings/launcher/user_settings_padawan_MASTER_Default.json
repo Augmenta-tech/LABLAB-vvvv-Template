@@ -1,0 +1,20 @@
+{
+  "SchemaVersion": "1-1-0",
+  "Name": "AUGMENTA SPACE SIMULATOR",
+  "ProfileName": "Default",
+  "Path": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\tools\\augmentaspace_simulator",
+  "EntryPoint": "AugmentaSpace.vl",
+  "VVVVVersion": "vvvv_gamma_6.0-0258-g2531a86036",
+  "VVVVVersionFolderOverrideToggle": false,
+  "VVVVVersionOverrideFolder": "",
+  "NugetFolderOverrideToggle": true,
+  "NugetOverrideFolder": "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\nugets",
+  "PackageRepositoryFoldersOverrideToggle": true,
+  "PackageRepositoryOverrideFolders": [
+    "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules",
+    "D:\\_PROGRAMS\\vvvv_test\\DL_2023_06_DATALAND\\shared_dependencies\\submodules\\ImaginarySystem"
+  ],
+  "Settings": [],
+  "EditablePackages": [],
+  "CommandLineApplications": []
+}

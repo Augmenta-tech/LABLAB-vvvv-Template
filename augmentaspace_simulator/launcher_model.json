@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": "1-1-0",
+  "Name": "AUGMENTA SPACE SIMULATOR",
+  "EntryPoint": "AugmentaSpace.vl",
+  "VVVVVersion": "vvvv_gamma_6.0-0263-gfc1001a87e",
+  "NugetFolderOverrideToggle": true,
+  "NugetOverrideFolder": "..\\..\\shared_dependencies\\nugets",
+  "PackageRepositoryFoldersOverrideToggle": true,
+  "PackageRepositoryOverrideFolders": [
+    "..\\..\\shared_dependencies\\submodules",
+    "..\\..\\shared_dependencies\\submodules\\ImaginarySystem"
+  ],
+  "Settings": []
+}
