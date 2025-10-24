@@ -458,7 +458,7 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
               </p:NodeReference>
-              <Pin Id="RigN3r6BHkDP5FxqWzGiVE" Name="Bounds" Kind="InputPin" DefaultValue="1396, 838, 900.6667, 416.66666" />
+              <Pin Id="RigN3r6BHkDP5FxqWzGiVE" Name="Bounds" Kind="InputPin" DefaultValue="0, 0, 7680, 2400" />
               <Pin Id="QZfTo2QGvYkNXD1hKiSAp2" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
               <Pin Id="JKZYGDmZjtWODMhC9VGdEh" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
               <Pin Id="K3ZI4n8yajUN3LP3IRLxH3" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1570,8 +1570,8 @@
                     <Choice Kind="OperationCallFlag" Name="FromHSL" />
                   </p:NodeReference>
                   <Pin Id="AmM14xWz6NSMUv5mQSE7x7" Name="Hue" Kind="InputPin" />
-                  <Pin Id="AumLosgA7iYN8fIjYCK4bS" Name="Saturation" Kind="InputPin" DefaultValue="0.47" />
-                  <Pin Id="DjulE73eXeFMquH2pHGJfI" Name="Lightness" Kind="InputPin" DefaultValue="0.56" />
+                  <Pin Id="AumLosgA7iYN8fIjYCK4bS" Name="Saturation" Kind="InputPin" DefaultValue="0.87" />
+                  <Pin Id="DjulE73eXeFMquH2pHGJfI" Name="Lightness" Kind="InputPin" DefaultValue="0.49" />
                   <Pin Id="Iv5xmLhoPfhMbghJOVLN2P" Name="Alpha" Kind="InputPin" />
                   <Pin Id="IYLkZ2qn1rfMie1BM6ePY4" Name="Result" Kind="OutputPin" />
                 </Node>
@@ -1828,6 +1828,15 @@
                   <Pin Id="SEfItr3mEImOlzEgbiCnDj" Name="Translation" Kind="InputPin" />
                   <Pin Id="NuQO8OJ4QpLQIbyjA3ivfy" Name="Output" Kind="OutputPin" />
                 </Node>
+                <Node Bounds="469,241,30,19" Id="HwI3GJLwS9vOdhWN7btn8R">
+                  <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="Int32Type" Name="Integer32" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationCallFlag" Name="Inc" />
+                  </p:NodeReference>
+                  <Pin Id="LM0g5WgVvsGLPakEniFvqV" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Gwp2pgvqg1PLvaKZNTGWlQ" Name="Output" Kind="StateOutputPin" />
+                </Node>
               </Patch>
             </Node>
             <Node Bounds="275,793,65,19" Id="AyUJEiSCi7pMEe3XkgMa5N">
@@ -1860,7 +1869,7 @@
               <Pin Id="VOBLBEKVp7kMD2jXVlGpkD" Name="Show Helpers" Kind="InputPin" />
               <Pin Id="Tip7AlvZufLLNe3d3mXkxG" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="469,163,44,19" Id="DUkyUi8Bpp6LIDUkvzlfzv">
+            <Node Bounds="469,150,44,19" Id="DUkyUi8Bpp6LIDUkvzlfzv">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
@@ -1927,7 +1936,7 @@
           </Patch>
           <Link Id="EMarUkH9mI1L9AhtZ0lDZU" Ids="My6McEE0snIPXqJyuyHZzm,NP6BroW6cIaP3lzSrcFRxP" />
           <Link Id="DuFaL2kfnOGMTkxRGFjb3L" Ids="My6McEE0snIPXqJyuyHZzm,RVVyScRh5qyO3p14OgmL7G" />
-          <Link Id="ARNgMaBXbTvQJFlDjQwdvC" Ids="BVoLgeulWesLBMEcqd1VX5,NsU6MKUVmiVPm29SC7upQK" />
+          <Link Id="ARNgMaBXbTvQJFlDjQwdvC" Ids="BVoLgeulWesLBMEcqd1VX5,LM0g5WgVvsGLPakEniFvqV" />
           <Link Id="J1XbpYLu8N1No0W9g5ov9w" Ids="KWeu6acCmDJOlvNTeydpuJ,QFHcWHNiCoyMdrRmRwP7Q0" />
           <Link Id="FQNInAMjo2sQRaQDFZ0su2" Ids="KJ0cIVUu8uAL2bbDOMN7JT,JHUP6zJ6L4vOyYdtegWiwp" />
           <Link Id="AItEbFqkR3MLY63SI1cK80" Ids="IYLkZ2qn1rfMie1BM6ePY4,RrlkIRS3qBXOkwm4dsgFtP" />
@@ -1957,6 +1966,7 @@
           <Link Id="Vh6qfxJfVkDL2mY4F7I26n" Ids="IVWQpN7MABeLqfpeDZsCan,PnzlZwTQvZPLHlePl5Gaxg" />
           <Link Id="CKdVfgPLk9YMUggTF2GLeh" Ids="COd5DzpK7A4Lmmyqo5dPEV,SEfItr3mEImOlzEgbiCnDj" />
           <Link Id="OXr3dmKhyDuPafGBgg4DQX" Ids="NuQO8OJ4QpLQIbyjA3ivfy,Dw8zrDzOYNeQArutF9vvy4" />
+          <Link Id="NQmA1WFnoxuN49uxrHeKu1" Ids="Gwp2pgvqg1PLvaKZNTGWlQ,NsU6MKUVmiVPm29SC7upQK" />
         </Patch>
       </Node>
       <!--
@@ -2244,7 +2254,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="Ruoh1DYnFjWMMiw6uCMYhu" Name="Bounds" Kind="InputPin" DefaultValue="1384, 53.333332, 902.6667, 592.6667" IsHidden="true" />
+            <Pin Id="Ruoh1DYnFjWMMiw6uCMYhu" Name="Bounds" Kind="InputPin" DefaultValue="-922, 152, 644, 479" IsHidden="true" />
             <Pin Id="K980cjlPT77PFgoc9nMu05" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="IGPndfNn45lQCgBN9AFAsd" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="RlyPI4VkixqMP7iPLZPprv" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -2318,6 +2328,7 @@
             <Pin Id="SmjKBHG1hj3MzmrXKF7S6S" Name="Auto Reconnect" Kind="InputPin" IsHidden="true" />
             <Pin Id="ArTxwPKboJLM1Dg97SbajA" Name="Enabled" Kind="InputPin" />
             <Pin Id="CQojRWF10wrPLOSBLSjotl" Name="Output" Kind="OutputPin" />
+            <Pin Id="DI1kjCcLc1ZM3h7KXcgzsL" Name="Updates per Second" Kind="OutputPin" />
             <Pin Id="U7qNUMfreRbQDwxO8s0wGq" Name="Is Connected" Kind="OutputPin" />
           </Node>
           <Pad Id="TTAR9mP4cXbM43G0k9Bww4" Comment="Enabled" Bounds="394,400,35,35" ShowValueBox="true" isIOBox="true" Value="True">
@@ -2329,7 +2340,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DhzrDEOaFedLrziu7lWxiE" Comment="Is Connected" Bounds="394,465,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DhzrDEOaFedLrziu7lWxiE" Comment="Is Connected" Bounds="394,490,35,35" ShowValueBox="true" isIOBox="true" />
           <Pad Id="HtoRtxMCfnMLtM9NSF8RHZ" Comment="Stream Cluster Points" Bounds="825,121,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
@@ -2357,10 +2368,10 @@
             <Pin Id="QpVC8xw2la3MkdqWakJL4j" Name="Auto Reconnect" Kind="InputPin" IsHidden="true" />
             <Pin Id="LeiOtTUAIlNPLue0wSPl91" Name="Enabled" Kind="InputPin" />
             <Pin Id="VJPnvbdtWK4P7FdX0H1jKz" Name="Output" Kind="OutputPin" />
+            <Pin Id="M536k23R3BELH0OrW0awy3" Name="Updates per Second" Kind="OutputPin" />
             <Pin Id="Pg3UNsJevp4NIn7t8FjFfu" Name="Is Connected" Kind="OutputPin" />
           </Node>
-          <Pad Id="BQQbagP3AQuNYy1HT6argx" Comment="Is Connected" Bounds="912,350,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="I03xBAMU1OqPcbCNBAzsm7" Comment="" Bounds="783,340,98,26" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="BQQbagP3AQuNYy1HT6argx" Comment="Is Connected" Bounds="885,360,35,35" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="703,240,51,26" Id="KjW5gWGjYH0NxSGMyJFdBY">
             <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2390,15 +2401,6 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="703,340,53,19" Id="KUHSsxfsouVMKQQ5FRYWqe">
-            <p:NodeReference LastCategoryFullName="Augmenta" LastDependency="VL.Augmenta.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Clusters" />
-            </p:NodeReference>
-            <Pin Id="ToyWsyB6tXIMgcPIZk98rg" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="JTqatuGLnAdNoQ2SGEnd2q" Name="Input" Kind="InputPin" />
-            <Pin Id="EB2c4SE6RoeL5iFg1UrL4v" Name="Result" Kind="OutputPin" />
-          </Node>
           <Pad Id="MuTjypuGxIFPGjoX1gE4DM" Comment="Tags" Bounds="881,190,73,34" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
@@ -2449,7 +2451,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JAwN38psCuxLywGx4uWBLI" Comment="Stream Cluster Points" Bounds="334,291,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="JAwN38psCuxLywGx4uWBLI" Comment="Stream Cluster Points" Bounds="334,291,35,15" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -2473,6 +2475,8 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="NfARl5ipS3xNeYAhx2XzLD" Comment="Updates per Second" Bounds="304,470,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MtmEOeE9rKXLFJ4F1HzdY7" Comment="Updates per Second" Bounds="795,330,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="LAX25CSsW2ZOMutweiHzHe" Name="Create" />
         <Patch Id="HeBpuZMxWgaLzpxOcXdKtf" Name="Update" />
@@ -2499,14 +2503,11 @@
         <Link Id="F6nacQnG6tzOSzrDE0nBuy" Ids="U7qNUMfreRbQDwxO8s0wGq,DhzrDEOaFedLrziu7lWxiE" />
         <Link Id="QPtmcBNAk51NY2jqAEYWuK" Ids="HtoRtxMCfnMLtM9NSF8RHZ,OAixLFWk2SsO8uqtzFir2M" />
         <Link Id="IHmIyNdrsFGLskaC547CEO" Ids="Pg3UNsJevp4NIn7t8FjFfu,BQQbagP3AQuNYy1HT6argx" />
-        <Link Id="L8XJmmzE2ItO9PurgRXKWY" Ids="VJPnvbdtWK4P7FdX0H1jKz,I03xBAMU1OqPcbCNBAzsm7" />
         <Link Id="TRWcqWLdLnhPkbrgbx9Ttm" Ids="LVm9fPI6HdcM6LpbT1Z1jS,D8sLn9xUoniPGEuJ5gQ0eb" />
         <Link Id="LwuUTOlKW9mNZ0laIzLH9a" Ids="MmrjvaXYj10PcZKSaoZfOZ,Q9D3QqLf1i9OG86hZzD1TQ" />
         <Link Id="OrpskzN5TFfQPLeleDGYlt" Ids="O1oNsq9DSERPrND3PoYknQ,P05C9ZM63SDN3cNMv2UD7w" />
         <Link Id="KbgXIKDnpOEMaPInprK1Zg" Ids="Onf7pvzKh51QOESvLnTAxp,LeiOtTUAIlNPLue0wSPl91" />
         <Link Id="JvzH2ogVNXlPB0XecjE1jY" Ids="MuTjypuGxIFPGjoX1gE4DM,KaWT6PPhze1Lfe0qzVJHwy" />
-        <Link Id="CvO60BxQ3lLOJrCSw01bhc" Ids="VJPnvbdtWK4P7FdX0H1jKz,JTqatuGLnAdNoQ2SGEnd2q" />
-        <Link Id="CCFUvc4clwsLCUD1G32tdv" Ids="CQojRWF10wrPLOSBLSjotl,RyGCrZ6VOnKLsJFSnHI91y" />
         <Link Id="PBiL27QVe9QNxrsZXSEsZI" Ids="LuEH8PhpEofNlpsv1VIujP,FrjSSnOASSrMYJsX11N2pX" />
         <Link Id="N9j1uQeAnPuNew7Bnh6vxJ" Ids="LuEH8PhpEofNlpsv1VIujP,H7pkemNkXasPuaPa8HT6Ul" />
         <Link Id="NEUoVrwe0OhOjd13HEvGJ0" Ids="PPy5Tb0vHGSMOjo7FBq030,MFZ8bvMmbaiQXmUvZVvgou" />
@@ -2517,15 +2518,18 @@
         <Link Id="IIwEb8dsep5Low16qb9V1R" Ids="JAwN38psCuxLywGx4uWBLI,VffRYIMVpQvPFLen6ULITq" />
         <Link Id="TI3fowlL3pBOZibymL1rQB" Ids="OCes5jZgnVhQDScQ5Ccgqk,M3XA7gi0izmOuYD091tJg5" />
         <Link Id="LPStHSa9JF4L0efvrHwMo1" Ids="IU5bASL7HY8LS1QsOquahB,AYCQsg5f7gAOhfSipKq11p" />
+        <Link Id="FUQtP5VK3NiNds57VSKK6k" Ids="CQojRWF10wrPLOSBLSjotl,RyGCrZ6VOnKLsJFSnHI91y" />
+        <Link Id="Itb2k68T87iLWGAJ7k0IkQ" Ids="DI1kjCcLc1ZM3h7KXcgzsL,NfARl5ipS3xNeYAhx2XzLD" />
+        <Link Id="JJhe4maUiKPLreJ3uN2kH9" Ids="M536k23R3BELH0OrW0awy3,MtmEOeE9rKXLFJ4F1HzdY7" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="CwkGn2gIWRTPAB3DmqFL9p" Location="VL.CoreLib" Version="2025.7.0" />
   <NugetDependency Id="DFhKcsElVaULBTcrxV6nnz" Location="VL.Stride" Version="2025.7.0" />
-  <NugetDependency Id="I3Ns9chxffGObKZLaxdnyS" Location="VL.VIOSOWarpBlend" Version="1.0.0" />
+  <NugetDependency Id="I3Ns9chxffGObKZLaxdnyS" Location="VL.VIOSOWarpBlend" Version="2.4.0" />
   <NugetDependency Id="QodRDl05OUcOkzufm0POas" Location="VL.Skia" Version="2025.7.0" />
   <NugetDependency Id="BUAFJXD7T9ALwg0MRNQ161" Location="VL.Stride.TextureFX" Version="2025.7.0" />
-  <NugetDependency Id="QmK776fFKWEOtnLq2RY91I" Location="VL.Augmenta" Version="0.2.3-alpha" />
-  <NugetDependency Id="T2vFwXcWywxP7tbA3ahD2m" Location="VL.IO.OSC" Version="2.0.4" />
+  <NugetDependency Id="QmK776fFKWEOtnLq2RY91I" Location="VL.Augmenta" Version="0.2.4-alpha" />
+  <NugetDependency Id="T2vFwXcWywxP7tbA3ahD2m" Location="VL.IO.OSC" Version="2.0.7" />
   <NugetDependency Id="Vm6i88HVxyaMmrMAN9BUi7" Location="VL.IO.OSCQuery" Version="2025.7.0" />
 </Document>
