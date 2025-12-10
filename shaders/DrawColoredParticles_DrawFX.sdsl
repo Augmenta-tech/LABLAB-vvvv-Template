@@ -8,7 +8,10 @@ shader DrawColoredParticles_DrawFX : VS_PS_Base, ShaderUtils
     {
         [Color]
         float ParticleSize;
-	float FloorOffset;
+        bool FlattenX;
+        bool FlattenY;
+        bool FlattenZ;
+	    float3 Offset;
     };
 
     stream float2 TexCoord;
@@ -20,7 +23,7 @@ shader DrawColoredParticles_DrawFX : VS_PS_Base, ShaderUtils
     stage override void VSMain() 
     {
         uint id = streams.VertexID;
-        streams.PositionWS = float4(ParticlesBuffer[id].x, FloorOffset, ParticlesBuffer[id].z, 1);
+        streams.PositionWS = float4(ParticlesBuffer[id].x * FlattenX + Offset.x, ParticlesBuffer[id].y * FlattenY + Offset.y, ParticlesBuffer[id].z * FlattenZ + Offset.z, 1);
         streams.Color = ColorBuffer[id];
     }
 
