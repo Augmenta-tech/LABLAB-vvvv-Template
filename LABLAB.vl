@@ -100,7 +100,7 @@
               <Pin Id="TWc4Pm5pVfxLiqKZUuNfJ7" Name="Component" Kind="InputPin" />
               <Pin Id="PIdgkntlkYZPFkNjh6hyKJ" Name="Children" Kind="InputPin" />
               <Pin Id="Qgk4Ux7XWlbOQDLduSZRRX" Name="Name" Kind="InputPin" />
-              <Pin Id="DbPlePPpbtuM23F2J5j3GO" Name="Enabled" Kind="InputPin" />
+              <Pin Id="DbPlePPpbtuM23F2J5j3GO" Name="Enabled" Kind="InputPin" DefaultValue="False" />
               <Pin Id="TlqdO5roAc2Oq5VGwmWhxr" Name="Output" Kind="OutputPin" IsHidden="true" />
               <Pin Id="QHgr2eAuzPIPmk02jY2Zv8" Name="Entity" Kind="OutputPin" />
             </Node>
@@ -345,7 +345,7 @@
               <Pin Id="KiLUFc5wAB3QHzl7tC0fh1" Name="Child 2" Kind="InputPin" />
               <Pin Id="FWPANziKv08PcWWcc91klt" Name="Child 3" Kind="InputPin" />
               <Pin Id="CXNF31fGEsvNR174467QcD" Name="Name" Kind="InputPin" />
-              <Pin Id="Al1h8C8gUpNNdcIaFCEHyp" Name="Enabled" Kind="InputPin" />
+              <Pin Id="Al1h8C8gUpNNdcIaFCEHyp" Name="Enabled" Kind="InputPin" DefaultValue="True" />
               <Pin Id="Tq2iwx3MrC3NJLpLKVnTu4" Name="Output" Kind="OutputPin" />
             </Node>
             <Pad Id="SYmuLa4eF2IP3kDBrYi2lq" Comment="Translation" Bounds="139,701,46,49" ShowValueBox="true" isIOBox="true" Value="7.94, 0, -5.94">
@@ -405,7 +405,6 @@
           <Link Id="Onan4RGlF8QM90upJFXOJz" Ids="M9a5R9WTn4vNEZdays0J50,M5HeGzRSd2gPxq41XLMYAL" />
           <Link Id="RVx2yY31zJFPEI0ozDOnTA" Ids="IlTCgHeTSS1OQRaP0fFFaL,CgBKSZ6yhR7QPWG90ReIJy" />
           <Link Id="H33WeJnMGXzQPNWDG1dBBN" Ids="ATNCIIfqJjJM53wks2p1lf,JtFoGxZRM0XNvcQ2JIKOwI" />
-          <Link Id="RR2JlZQrnq4MB2JhH7e1tm" Ids="FV4xhyQPoGnLlpH4zvFXhq,U9Fh1B7xMqcPgq0WwJ9DOP" />
           <Link Id="FMFjsdjb8RALqq1s8mQiSV" Ids="U9Fh1B7xMqcPgq0WwJ9DOP,CIrW6DS5XvQPZSkG3XYkGT" IsHidden="true" />
           <Link Id="SaDci0AYP48MgPSYBvTqXL" Ids="MR1zeHocgAMNf8sRbIF4IX,A1O21NKuE7ZPoNoM47jGMG" />
           <Link Id="JsgDSrSNJLkNSBAQmm6WLt" Ids="CCL9QrAnKZjMOvFoQ8Oihr,MR1zeHocgAMNf8sRbIF4IX" IsHidden="true" />
@@ -443,6 +442,7 @@
           <Link Id="Io01qwW9OKxLnDvzNA8ks2" Ids="Cmk9rEOUzayQIkI7UGvx7H,Ho4ItPIIc2hP5SCtSxkGmD" />
           <Link Id="NAubmDlgaD5LsSOkp54fLI" Ids="FFM5PMHzd6qNq3tsOMm0T5,DMf3JT7LFzbNqd7WkF4v3R" />
           <Link Id="DC3pn5xJkcNNCFO5vL1gJJ" Ids="C0veLaA9wxYPCbxY6Yxirk,FWPANziKv08PcWWcc91klt" />
+          <Link Id="HCllPOc8dKHMFM9oTzMAzk" Ids="FV4xhyQPoGnLlpH4zvFXhq,U9Fh1B7xMqcPgq0WwJ9DOP" />
         </Patch>
       </Node>
       <!--
@@ -597,7 +597,7 @@
                   <Pin Id="VG0zLeWuPbVOvujvQxGxF9" Name="Input" Kind="InputPin" />
                   <Pin Id="K7wZ4qcF9e8LK0EmxMa5F6" Name="Size" Kind="InputPin" />
                   <Pin Id="OvzYwPMXqF8PytEzaQI3Zq" Name="Camera" Kind="InputPin" />
-                  <Pin Id="Fck8baY1GHkMp3krDjPAty" Name="Clear Color" Kind="InputPin" DefaultValue="1, 1, 1, 1" />
+                  <Pin Id="Fck8baY1GHkMp3krDjPAty" Name="Clear Color" Kind="InputPin" />
                   <Pin Id="N3uaYFePM7ELqQ7yV4n95A" Name="Clear" Kind="InputPin" />
                   <Pin Id="DeXW0U4KE8HOrby0Wdr02q" Name="Post Effects" Kind="InputPin" />
                   <Pin Id="GwOiatBQnmBLskwdze4vUK" Name="Enable Default Post Effects" Kind="InputPin" DefaultValue="True" />
@@ -2631,7 +2631,7 @@
             <Pin Id="VmxMg6bVos4QNxZtmvfRYj" Name="Camera" Kind="InputPin" />
             <Pin Id="MqyArZlW5EtM8IUjDzxwpi" Name="Enable Default Camera" Kind="InputPin" DefaultValue="False" />
             <Pin Id="NMKLdlmWfIFPSlnd2RWsEx" Name="Title" Kind="InputPin" DefaultValue="Preview" />
-            <Pin Id="U04cW75BJzeP9VmkUpHzQ1" Name="Clear Color" Kind="InputPin" />
+            <Pin Id="U04cW75BJzeP9VmkUpHzQ1" Name="Clear Color" Kind="InputPin" DefaultValue="0, 0, 0, 1" />
             <Pin Id="B04XHCQRWCAPR6RPc8p4SS" Name="Clear" Kind="InputPin" />
             <Pin Id="JXmc7IK625KMQ39eLdXrCV" Name="Post Effects" Kind="InputPin" />
             <Pin Id="MD6IKdrmA1VPlMU6swZ9Zh" Name="Enable Default Post Effects" Kind="InputPin" />
